@@ -2,7 +2,7 @@
 
 > Intelligent document chat system powered by RAG (Retrieval-Augmented Generation), vector search, and AI
 
-![Uploading image.png…]()
+
 
 
 ## 📖 Overview
