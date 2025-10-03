@@ -2,6 +2,8 @@
 
 > Intelligent document chat system powered by RAG (Retrieval-Augmented Generation), vector search, and AI
 
+![Uploading image.png…]()
+
 
 ## 📖 Overview
 
@@ -112,29 +114,8 @@ Installation
 "What does the report say about [specific subject]?"
 ```
 
-## ⚙️ Configuration
 
-### Customizing Text Splitting
 
-Edit the "Recursive Character Text Splitter" node:
-- **Chunk size**: 1000 (default) - Adjust for longer/shorter chunks
-- **Chunk overlap**: 200 (default) - Overlap for context continuity
-
-### Changing AI Models
-
-**Embedding Model:**
-- Current: `llama3.2:3b`
-- Alternatives: `nomic-embed-text`, `mxbai-embed-large`
-
-**Chat Model:**
-- Current: OpenAI GPT-3.5/4
-- Alternatives: Configure different models in OpenAI node
-
-### Vector Search Parameters
-
-Adjust in Supabase Vector Store (retrieval):
-- **Top K**: Number of chunks to retrieve (default: 5)
-- **Similarity threshold**: Minimum similarity score
 
 ## 🛠️ Tech Stack
 
