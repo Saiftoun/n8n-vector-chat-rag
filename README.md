@@ -82,7 +82,7 @@ Installation
 
 4. **Configure Ollama:**
    - Install Ollama: `curl https://ollama.ai/install.sh | sh`
-   - Pull embedding model: `ollama pull llama3.2:3b`
+   - Pull embedding model: `ollama pull nomic-embed-text`
    - Configure endpoint in Embeddings nodes
 
 5. **Activate the workflow:**
@@ -123,7 +123,7 @@ Installation
 |-----------|-----------|
 | **Workflow Engine** | n8n (Docker) |
 | **Vector Database** | Supabase (pgvector) |
-| **Embeddings** | Ollama (llama3.2:3b) |
+| **Embeddings** | Ollama (nomic-embed-text) |
 | **Chat Model** | OpenAI GPT |
 | **Document Source** | Google Drive |
 | **Text Processing** | Recursive Character Splitter |
